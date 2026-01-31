@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "slug": "personalai_agent",
   "description": "Connect your Home Assistant to Personal AI for intelligent voice and chat control",
-  "url": "https://github.com/yourusername/personalai-ha-addon",
+  "url": "https://github.com/ethanpeterson1029/personalai-ha-addon",
   "arch": ["amd64", "aarch64", "armv7", "armhf", "i386"],
   "startup": "services",
   "boot": "auto",
@@ -20,5 +20,5 @@
   "schema": {
     "server_url": "url",
     "agent_token": "str"
-  },
+  }
 }
