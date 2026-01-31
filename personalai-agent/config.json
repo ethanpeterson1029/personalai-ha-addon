@@ -21,5 +21,4 @@
     "server_url": "url",
     "agent_token": "str"
   },
-  "image": "ghcr.io/yourusername/personalai-agent-{arch}"
 }
