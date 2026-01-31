@@ -1,0 +1,25 @@
+{
+  "name": "Personal AI Agent",
+  "version": "1.0.0",
+  "slug": "personalai_agent",
+  "description": "Connect your Home Assistant to Personal AI for intelligent voice and chat control",
+  "url": "https://github.com/yourusername/personalai-ha-addon",
+  "arch": ["amd64", "aarch64", "armv7", "armhf", "i386"],
+  "startup": "services",
+  "boot": "auto",
+  "init": false,
+  "hassio_api": true,
+  "homeassistant_api": true,
+  "auth_api": true,
+  "ingress": false,
+  "panel_icon": "mdi:robot",
+  "options": {
+    "server_url": "http://192.168.0.161:8000",
+    "agent_token": ""
+  },
+  "schema": {
+    "server_url": "url",
+    "agent_token": "str"
+  },
+  "image": "ghcr.io/yourusername/personalai-agent-{arch}"
+}

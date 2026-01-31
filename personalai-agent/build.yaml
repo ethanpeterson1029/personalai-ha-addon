@@ -1,0 +1,20 @@
+version: "1"
+name: "Personal AI Agent"
+slug: "personalai_agent"
+description: "Connect Home Assistant to Personal AI"
+url: "https://github.com/yourusername/personalai-ha-addon"
+
+# Multi-arch build
+build_from:
+  amd64: "ghcr.io/home-assistant/amd64-base:3.18"
+  aarch64: "ghcr.io/home-assistant/aarch64-base:3.18"
+  armv7: "ghcr.io/home-assistant/armv7-base:3.18"
+  armhf: "ghcr.io/home-assistant/armhf-base:3.18"
+  i386: "ghcr.io/home-assistant/i386-base:3.18"
+
+# Labels
+labels:
+  org.opencontainers.image.title: "Personal AI Agent"
+  org.opencontainers.image.description: "Connect Home Assistant to Personal AI"
+  org.opencontainers.image.source: "https://github.com/yourusername/personalai-ha-addon"
+  org.opencontainers.image.licenses: "MIT"
